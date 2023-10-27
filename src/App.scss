@@ -1,0 +1,22 @@
+* {
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f6f6fe;
+}
+
+.app {
+  display: flex;
+  gap: 2rem;
+}
+.btn {
+  background-color: #3d3fcd;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+}

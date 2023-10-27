@@ -1,0 +1,54 @@
+.sideNav {
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: max-content;
+  height: calc(100vh - 2rem);
+  padding: 1.5rem;
+  margin: 10px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  &__logo {
+    background: white;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50%;
+    font-style: oblique;
+    font-family: "Courier New", Courier, monospace;
+    margin-top: 0;
+    font-size: 26px;
+  }
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      letter-spacing: 3px;
+      display: inline-block;
+      padding: 10px;
+      border-radius: 15px;
+    }
+    .active {
+      background-color: #3d3fcd;
+    }
+  }
+}

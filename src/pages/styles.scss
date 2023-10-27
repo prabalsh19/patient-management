@@ -1,0 +1,85 @@
+.patient {
+  background: white;
+  margin: 1rem 1rem 1rem 0;
+  flex: 1;
+  padding: 0 2rem;
+  border-radius: 2rem;
+  overflow-y: scroll;
+  height: calc(100vh - 2.5rem);
+  table {
+    width: 100%;
+    text-align: left;
+    margin-top: 2rem;
+    td {
+      padding: 10px 0;
+    }
+    button {
+      margin-right: 1rem;
+    }
+  }
+}
+.addPatient {
+  background: white;
+  margin: 1rem 1rem 1rem 0;
+  flex: 1;
+  padding: 0 2rem;
+  border-radius: 2rem;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    input,
+    select {
+      font-size: 14px;
+      padding: 2px 5px;
+      width: 33%;
+    }
+    button {
+      width: 10rem;
+    }
+  }
+}
+
+.editPatient {
+  background: white;
+  margin: 1rem 1rem 1rem 0;
+  flex: 1;
+  padding: 0 2rem;
+  border-radius: 2rem;
+  overflow-y: auto;
+  height: calc(100vh - 2.5rem);
+}
+
+.ward {
+  background: white;
+  margin: 1rem 1rem 1rem 0;
+  flex: 1;
+  padding: 0 2rem;
+  border-radius: 2rem;
+  overflow-y: scroll;
+  height: calc(100vh - 2.5rem);
+
+  table {
+    width: 100%;
+    text-align: left;
+    margin-top: 2rem;
+    td {
+      padding: 10px 0;
+    }
+    button {
+      margin-right: 1rem;
+    }
+  }
+}
+
+.hospital {
+  background: white;
+  margin: 1rem 1rem 1rem 0;
+  flex: 1;
+  padding: 0 2rem;
+  border-radius: 2rem;
+  overflow-y: scroll;
+  height: calc(100vh - 2.5rem);
+}
